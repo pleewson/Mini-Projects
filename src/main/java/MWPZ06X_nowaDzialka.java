@@ -15,3 +15,5 @@ public class MWPZ06X_nowaDzialka {
 
     }
 }
+
+// https://pl.spoj.com/problems/MWPZ06X/
