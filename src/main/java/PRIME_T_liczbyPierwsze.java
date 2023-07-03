@@ -32,3 +32,5 @@ public class PRIME_T_liczbyPierwsze {
     }
 }
 
+//https://pl.spoj.com/problems/PRIME_T/
+
