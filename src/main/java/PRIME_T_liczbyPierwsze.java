@@ -7,22 +7,28 @@ public class PRIME_T_liczbyPierwsze {
         int n = scan.nextInt(); //liczba testow
 
 
-        for (int i = 1; i <= n; i++) { // i to nasza liczba
+        for (int i = 0; i < n; i++) {
 
-            if (i < 2) {
-                System.out.println(i + "NIE");
+            int num = scan.nextInt(); //liczba do sprawdzenia
+            boolean isPrimeNumber = true;
+
+            if (num < 2) {
+                isPrimeNumber = false;
             } else {
-                for (int j = 2; j <= i / 2; j++) {
-                    if (i % j == 0) {
-                        System.out.println(i + "NIE");
-                        break;
-                    } else {
-                        System.out.println(i + "TAK");
+                for (int j = 2; j <= Math.sqrt(num); j++) {
+                    if (num % j == 0) {
+                        isPrimeNumber = false;
                         break;
                     }
                 }
             }
+            if(isPrimeNumber == true){
+                System.out.println("TAK");
+            }else{
+                System.out.println("NIE");
+            }
         }
+        scan.close();
     }
 }
 
