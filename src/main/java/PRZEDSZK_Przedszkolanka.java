@@ -7,24 +7,24 @@ public class PRZEDSZK_Przedszkolanka {
 
         int N = scan.nextInt();
 
-        for(int i = 0; i < N; i++){
+        for (int i = 0; i < N; i++) {
             int a, b;
 
-            do{
-                a = scan.nextInt();
-            }while(a >= 10 || a <= 30);
+            a = scan.nextInt();
+            b = scan.nextInt();
 
-            do{
-                b = scan.nextInt();
-            }while(b >= 10 || b <= 30);
+            if (a >= 10 && a <= 30 && b >= 10 && b <= 30) {
 
-            System.out.println(NWD(a,b));
+                int gcd = GCD(a, b);
+                System.out.println(LCD(a, b, gcd));
 
+            }
         }
         scan.close();
     }
 
-    private static int NWD (int one, int two) {
+
+    private static int GCD (int one, int two) { //NWD - GCD - greates common division
         while (one != two) { //dopoki liczby nie sa rowne
             if (one > two) { // sprawdzamy ktore sa wieksze
                 one = one - two;
@@ -34,4 +34,10 @@ public class PRZEDSZK_Przedszkolanka {
         }
         return one;
     }
+
+    private static int LCD (int one, int two, int gcd){ //lowest common division
+        return (one * two) / gcd;
+    }
 }
+
+//https://pl.spoj.com/problems/PRZEDSZK/
