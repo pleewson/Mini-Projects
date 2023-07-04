@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c93980e-62d7-4e07-bba3-1464282fd13b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PA05_POT_czyUmieszPotegowac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PRZEDSZK_Przedszkolanka.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +41,22 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.czyUmieszPotegowac">
+  <component name="RunManager" selected="Application.Przedszkolanka">
+    <configuration name="Przedszkolanka" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PRZEDSZK_Przedszkolanka" />
+      <module name="MiniProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tablice" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="PP0502B_Tablice" />
+      <module name="MiniProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <module name="MiniProjects" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,10 +84,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Przedszkolanka" />
       <item itemvalue="Application.nowaDzialka" />
       <item itemvalue="Application.liczbyPierwsze" />
       <item itemvalue="Application.Tablice" />
       <item itemvalue="Application.czyUmieszPotegowac" />
+      <item itemvalue="Application.Unnamed" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,5 +113,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PRZEDSZK_Przedszkolanka.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
