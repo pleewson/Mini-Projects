@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c93980e-62d7-4e07-bba3-1464282fd13b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FCTRL3_dwieCyfrySilni.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PRZEDSZK_Przedszkolanka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PRZEDSZK_Przedszkolanka.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Przedszkolanka">
+  <component name="RunManager" selected="Application.dwieCyfrySilni">
     <configuration name="Przedszkolanka" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="PRZEDSZK_Przedszkolanka" />
       <module name="MiniProjects" />
@@ -69,6 +69,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dwieCyfrySilni" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="FCTRL3_dwieCyfrySilni" />
+      <module name="MiniProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="liczbyPierwsze" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="PRIME_T_liczbyPierwsze" />
       <module name="MiniProjects" />
@@ -85,6 +92,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Przedszkolanka" />
+      <item itemvalue="Application.dwieCyfrySilni" />
       <item itemvalue="Application.nowaDzialka" />
       <item itemvalue="Application.liczbyPierwsze" />
       <item itemvalue="Application.Tablice" />
