@@ -26,6 +26,11 @@ public class FCTRL3_dwieCyfrySilni {
         }
         scan.close();
 
+        int ab = 1_000_000_000;
+        int ba = 1000000001;
+
+        System.out.println(ab == ba);
+
 
     }
     private static long decimalNumber(long value){
@@ -41,3 +46,4 @@ public class FCTRL3_dwieCyfrySilni {
 
     //https://pl.spoj.com/problems/FCTRL3/
 //need to optimize it
+//tryied some things from people in java group
