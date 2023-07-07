@@ -148,8 +148,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/FCTRL3_dwieCyfrySilni.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="3" />
+          <line>25</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
