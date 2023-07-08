@@ -103,12 +103,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.Przedszkolanka" />
-      <item itemvalue="Application.dwieCyfrySilni" />
-      <item itemvalue="Application.nowaDzialka" />
-      <item itemvalue="Application.liczbyPierwsze" />
       <item itemvalue="Application.Tablice" />
-      <item itemvalue="Application.czyUmieszPotegowac" />
       <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.czyUmieszPotegowac" />
+      <item itemvalue="Application.dwieCyfrySilni" />
+      <item itemvalue="Application.liczbyPierwsze" />
+      <item itemvalue="Application.nowaDzialka" />
     </list>
   </component>
 >>>>>>> SPOJ
@@ -148,7 +148,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/FCTRL3_dwieCyfrySilni.java</url>
-          <line>25</line>
+          <line>26</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
