@@ -17,9 +17,10 @@ public class FCTRL3_dwieCyfrySilni {
                     long n = scan.nextLong();  //factorial num
                     if (n > 1 && n <= 1_000_000_000) {
 
+                        //if(n == nArr.length)// n(5) == nArr[5] print nArr5
+
                         while(n > nArr.length){
                            nArr = increaseArray(nArr);
-
                         }
 
 
@@ -28,6 +29,7 @@ public class FCTRL3_dwieCyfrySilni {
                                 nArr[s-1] = sum;  //here finished
                         }
                     }
+                    //opt
 
                     System.out.println(decimalNumber(sum) + " " + lastDigit(sum));
                 }
