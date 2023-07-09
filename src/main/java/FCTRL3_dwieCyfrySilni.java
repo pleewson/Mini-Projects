@@ -29,7 +29,7 @@ public class FCTRL3_dwieCyfrySilni {
                                 nArr[s-1] = sum;  //here finished
                         }
                     }
-                    //opt
+                    //snd
 
                     System.out.println(decimalNumber(sum) + " " + lastDigit(sum));
                 }
