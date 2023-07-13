@@ -5,33 +5,31 @@ public class FCTRL3_dwieCyfrySilni {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        long[] nArr = new long[1];
+        long[] nArr = new long[0];
 
         if (scan.hasNextInt()) {
             int D = scan.nextInt(); //number of tests
 
             if (D >= 1 && D <= 30) {
+                long sum = 1;
                 for (int i = 1; i <= D; i++) {  //tests
-                    long sum = 1;
 
-                    long n = scan.nextLong();  //factorial num
-                    if (n > 1 && n <= 1_000_000_000) {
+                    int n = scan.nextInt();  //factorial num
+                    if (n >= 0 && n <= 1_000_000_000) {
 
-                        //if(n == nArr.length)// n(5) == nArr[5] print nArr5
 
-                        while(n > nArr.length){
-                           nArr = increaseArray(nArr);
+                        while(n >= nArr.length){
+                            nArr = increaseArray(nArr);
+                            sum *= nArr.length;
+                           nArr[nArr.length-1] = sum;
                         }
 
-
-                            for (int s = 1; s <= n; s++) {
-                                sum *= s;
-                                nArr[s-1] = sum;  //here finished
+                        if(n == 0){
+                            System.out.println(decimalNumber(nArr[n]) + " " + lastDigit(nArr[n]));
+                        }else {
+                            System.out.println(decimalNumber(nArr[n - 1]) + " " + lastDigit(nArr[n - 1]));
                         }
                     }
-                    //t
-
-                    System.out.println(decimalNumber(sum) + " " + lastDigit(sum));
                 }
             }
         }
