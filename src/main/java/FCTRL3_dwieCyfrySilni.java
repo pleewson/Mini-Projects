@@ -1,17 +1,18 @@
 import java.util.Arrays;
 import java.util.Scanner;
+import java.math.BigInteger;
 
 public class FCTRL3_dwieCyfrySilni {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        long[] nArr = new long[0];
+        BigInteger[] nArr = new BigInteger[0];
 
         if (scan.hasNextInt()) {
             int D = scan.nextInt(); //number of tests
 
             if (D >= 1 && D <= 30) {
-                long sum = 1;
+                BigInteger sum = BigInteger.ONE;
                 for (int i = 1; i <= D; i++) {  //tests
 
                     int n = scan.nextInt();  //factorial num
@@ -20,7 +21,7 @@ public class FCTRL3_dwieCyfrySilni {
 
                         while(n >= nArr.length){
                             nArr = increaseArray(nArr);
-                            sum *= nArr.length;
+                            sum = sum.multiply(BigInteger.valueOf(nArr.length));
                            nArr[nArr.length-1] = sum;
                         }
 
@@ -38,21 +39,25 @@ public class FCTRL3_dwieCyfrySilni {
 
     }
 
-    private static long decimalNumber(long value) {
-        return value / 10;
+    private static BigInteger decimalNumber(BigInteger value) {
+        return value.divide(BigInteger.TEN);
     }
 
 
-    private static long lastDigit(long value) {
-        return value % 10;
+    private static BigInteger lastDigit(BigInteger value) {
+        return value.mod(BigInteger.TEN);
     }
 
 
-    private static long[] increaseArray(long[] longArray) {
+    private static BigInteger[] increaseArray(BigInteger[] longArray) {
         return Arrays.copyOf(longArray, longArray.length + 1);
     }
+
 }
 
+
     //https://pl.spoj.com/problems/FCTRL3/
-//need to optimize it
+//need to optimize it? but how?
 //tryied some things from people in java group
+//its not because variable //long, int also dont work.
+//after saving values into Array time is longer than before
