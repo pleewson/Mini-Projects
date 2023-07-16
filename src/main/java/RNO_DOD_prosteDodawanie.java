@@ -16,6 +16,7 @@ public class RNO_DOD_prosteDodawanie {
             }
 
             System.out.println(sum);
+            //spoj
         }
     }
 }
