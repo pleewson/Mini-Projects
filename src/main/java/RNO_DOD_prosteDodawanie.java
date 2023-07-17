@@ -16,7 +16,8 @@ public class RNO_DOD_prosteDodawanie {
             }
 
             System.out.println(sum);
-            //spoj
+            //https://pl.spoj.com/problems/RNO_DOD/
+            //accepted
         }
     }
 }
