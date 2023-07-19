@@ -12,7 +12,7 @@ public class PP0604A_sredniaArytmetyczna {
             if(n > 0 && n < 100){
                 
             }
-
+//sql3h
         }
 
     }
