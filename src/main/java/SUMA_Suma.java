@@ -19,3 +19,4 @@ public class SUMA_Suma {
 }
 //not accepted
 //https://pl.spoj.com/problems/SUMA/
+//cd
