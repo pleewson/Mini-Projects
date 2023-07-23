@@ -4,19 +4,18 @@ public class SUMA_Suma {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int t = scan.nextInt();
-
         int sum = 0;
 
-        if(t >= 0 && t <= 110){
-            for(int i = 0; i < t; i++){
+            while(scan.hasNextInt()){
                 int value = scan.nextInt();
-                sum += value;
-                System.out.println(sum);
+
+                if(value >= -100 && value <= 100) {
+                    sum += value;
+                    System.out.println(sum);
+                }
             }
         }
     }
-}
-//not accepted
+
+//accepted
 //https://pl.spoj.com/problems/SUMA/
-//cdd4
