@@ -36,4 +36,4 @@ public class PP0501A_NWD {
 //accepted
 //https://pl.spoj.com/problems/PP0501A/
 
-//mysql wroking well.
+//mysqld2
