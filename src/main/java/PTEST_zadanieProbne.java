@@ -13,3 +13,6 @@ public class PTEST_zadanieProbne {
 
     }
 }
+
+//https://pl.spoj.com/problems/PTEST/
+//accepted
