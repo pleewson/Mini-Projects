@@ -5,10 +5,11 @@ public class DYZIO2_Dyzio {
         Scanner scan = new Scanner(System.in);
 
         int N = scan.nextInt(); // amout of tests
+        int sumPrime = 0;
 
         if(N >= 1 && N <= 20000){
             for(int i = 0; i < N; i++){
-                int sumPrime = 0;
+                sumPrime = 0;
 
                 int a = scan.nextInt(); //begin
             int b = scan.nextInt(); //end
