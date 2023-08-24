@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c93980e-62d7-4e07-bba3-1464282fd13b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/FCTRL3_dwieCyfrySilni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FCTRL3_dwieCyfrySilni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VSR_predkoscSrednia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tabtab.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -35,12 +38,27 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.dwieCyfrySilni">
+  <component name="RunManager" selected="Application.predkoscSrednia">
+    <configuration name="Dyzio" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DYZIO2_Dyzio" />
+      <module name="MiniProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pesel" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="JPESEL_Pesel" />
+      <module name="MiniProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Przedszkolanka" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="PRZEDSZK_Przedszkolanka" />
       <module name="MiniProjects" />
@@ -89,7 +107,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="predkoscSrednia" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="VSR_predkoscSrednia" />
+      <module name="MiniProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prosteDodawanie" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RNO_DOD_prosteDodawanie" />
+      <module name="MiniProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="MiniProjects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Dyzio" />
+      <item itemvalue="Application.predkoscSrednia" />
+      <item itemvalue="Application.Pesel" />
       <item itemvalue="Application.Przedszkolanka" />
       <item itemvalue="Application.Tablice" />
       <item itemvalue="Application.Unnamed" />
@@ -97,6 +139,8 @@
       <item itemvalue="Application.dwieCyfrySilni" />
       <item itemvalue="Application.liczbyPierwsze" />
       <item itemvalue="Application.nowaDzialka" />
+      <item itemvalue="Application.prosteDodawanie" />
+      <item itemvalue="Application.test" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -132,11 +176,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FCTRL3_dwieCyfrySilni.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
